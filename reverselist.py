@@ -1,0 +1,4 @@
+#! /usr/bin/env python3
+"""reverting list with special case of slice step param"""
+a = [5, 4, 3, 2, 1]
+print(a[::-1])
