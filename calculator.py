@@ -15,7 +15,8 @@ ops = {
     "*": operator.mul
 }
 
-x = input("Enter an operator [OPTIONS: +, -, *, /]: ")
+options_str = ', '.join(ops.keys())
+x = input("Enter an operator [OPTIONS: {}]: ".format(options_str))
 y = int(input("Enter number: "))
 z = int(input("Enter number: "))
 
