@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-"""flattening nested lists within a single list comprehension with
+"""flattening nested lists of depth 2 within a single list comprehension with
 multiple for loops"""
 
 l = [
