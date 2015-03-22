@@ -6,4 +6,11 @@ items = [2, 2, 3, 3, 1]
 newitems2 = list(set(items))
 print(newitems2)
 
+"""remove dups and keep order"""
+
+from collections import OrderedDict
+
+items = ["foo", "bar", "bar", "foo"]
+
+print(list(OrderedDict.fromkeys(items).keys()))
 
