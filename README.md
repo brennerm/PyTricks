@@ -11,3 +11,7 @@ Feel free to use the PyTrickBase.txt as a starting point.
 2. Issue comment:
 
    Add your Python snippet and your documentation as a comment on Issue#1. I will take care of adding your PyTrick and you as a contributor.
+
+## Contact
+1. message me at [@__brennerm](https://twitter.com/__brennerm)
+2. send an email to xam.rennerb@gmail.com
