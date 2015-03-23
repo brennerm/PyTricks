@@ -2,13 +2,6 @@
 Creating a knowledge base of unpopular Python built-in features to save a lot of unecessary code.
 
 ## Contribute
-### Requirements
-- only use the standard Python library
-- compared to the "general approach":
-  - improve readability
-  - improve performance
-  - implement functionality in a shorter way
-  
 Feel free to use the PyTrickBase.txt as a starting point.
 
 1. Pull request:
@@ -18,6 +11,13 @@ Feel free to use the PyTrickBase.txt as a starting point.
 2. Issue comment:
 
    Add your Python snippet and your documentation as a comment on Issue#1. I will take care of adding your PyTrick and you as a contributor.
+   
+### Requirements
+- only use the standard Python library
+- compared to the "general approach":
+  - improve readability
+  - improve performance
+  - implement functionality in a shorter way
 
 ## Contact
 1. message me at [@__brennerm](https://twitter.com/__brennerm)
