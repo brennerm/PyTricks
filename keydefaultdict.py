@@ -1,5 +1,5 @@
 """
-keydefaultdict with where the function recieves the dictionary and key.
+keydefaultdict with where the function recieves the key.
 """
 from collections import defaultdict
 
