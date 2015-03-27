@@ -15,7 +15,7 @@ def pow2(n):
 	return 1 << n 
 
 d = keydefaultdict(pow2)
-print d[1]
-print d[3]
-print d[10]
-print d
+print(d[1])
+print(d[3])
+print(d[10])
+print(d)
