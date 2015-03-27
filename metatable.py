@@ -16,7 +16,7 @@ def fib(d,n):
 	return d[n - 1] + d[n - 2]
 
 d = metatable(fib)
-print d[1]
-print d[3]
-print d[10]
-print d
+print(d[1])
+print(d[3])
+print(d[10])
+print(d)
