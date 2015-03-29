@@ -4,5 +4,5 @@ a = [5, 4, 3, 2, 1]
 print(a[::-1])
 
 """iterating over list contents in reverse efficiently."""
-for ele reversed(a):
+for ele in reversed(a):
   print(ele)
