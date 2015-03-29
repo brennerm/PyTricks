@@ -1,5 +1,5 @@
 ## Intention
-Creating a knowledge base of unpopular Python built-in features to save a lot of unecessary code.
+Creating a knowledge base of unpopular Python built-in features to save a lot of unnecessary code.
 
 ## Contribute
 Feel free to use the PyTrickBase.txt as a starting point.
