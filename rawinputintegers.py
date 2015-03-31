@@ -4,12 +4,12 @@
 Convert raw string integer inputs to integers
 """
 
-str_input = input("Enter your string input\n")
+str_input = "1 2 3 4 5 6"
 
 print("### Input ###")
 print(str_input)
 
-int_input = [int(i) for i in str_input.split()]
+int_input = map(int, str_input.split())
 
 print("### Output ###")
 print(int_input)
