@@ -12,4 +12,4 @@ print(str_input)
 int_input = map(int, str_input.split())
 
 print("### Output ###")
-print(int_input)
+print(list(int_input))
