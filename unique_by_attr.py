@@ -8,18 +8,13 @@
 """
 
 
-class Foo():
-    pass
+class Foo:
+    def __init__(self, value):
+        self.bar = value
 
-
-item1 = Foo()
-item1.bar = 15
-
-item2 = Foo()
-item2.bar = 15
-
-item3 = Foo()
-item3.bar = 5
+item1 = Foo(15)
+item2 = Foo(15)
+item3 = Foo(5)
 
 lst = [item1, item2, item3]
 
