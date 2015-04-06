@@ -10,6 +10,6 @@ class Foo():
 
 sequence = [Foo() for i in range(5)]
 
-# in python3 map returns iterator so we must ask python ro process elements by list()
+# in python3 map returns iterator so we must ask python to process elements by list()
 # in python2 map(operator.methodcaller('bar'), sequence) works perfectly
 list(map(operator.methodcaller('bar'), sequence))
