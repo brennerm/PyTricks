@@ -6,7 +6,7 @@
 l = [4,2,3,5,1]
 print("original list: ", l)
 
-values, indices = zip(*sorted(enumerate(l)))
+values, indices = zip(*sorted((a,b) for (b,a) in enumerate(l)))
 
 #now values contains the sorted list and indices contains
 #the indices of the corresponding value in the original list
