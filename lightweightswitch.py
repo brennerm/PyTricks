@@ -15,7 +15,7 @@ def subtract(a, b):
     return a - b
     
 b = {
-    '+': add
+    '+': add,
     '-': subtract
 }
 
