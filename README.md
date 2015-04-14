@@ -11,7 +11,27 @@ Feel free to use the PyTrickBase.txt as a starting point.
 2. Issue comment:
 
    Add your Python snippet and your documentation as a comment on Issue#1. I will take care of adding your PyTrick and you as a contributor.
-   
+
+### PyTrick List
+- [Basic Variables Types](#variables)
+    - [str](#var-str)
+    - [bool](#var-bool)
+- [Conditional Commands](#conditional-statements)
+    - [if](#cs-if)
+    - [for](#cs-for)
+    - [switch](#cs-switch)
+- [The Python Model Object](#python-model-object)
+- [Data Structures](#data-structure)
+    - [Array](#dt-array)
+    - [Sequences](#dt-sequences)
+    - [List Comprehension](#dt-list-comprehension)
+    - [Slicing](#dt-slicing)
+    - [Operators](#dt-operators)
+    - [Tuples](#dt-tuples)
+- [Dictionaries](#dict)
+- [Sets](#sets)
+- [Decorators](#decorators)
+
 ### Requirements
 - only use the standard Python library
 - compared to the "general approach":

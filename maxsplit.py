@@ -8,4 +8,4 @@ print(string.split("_", 1))
 
 s = "foo    bar   foobar foo"
 
-print(s.split(None, 2))
+print(s.split(None, 2))  # ['foo', 'bar', 'foobar foo']
