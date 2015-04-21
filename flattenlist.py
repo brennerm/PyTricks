@@ -27,14 +27,15 @@ a = [[1, 2], [3, 4]]
 
 # Solutions:
 
-[x for _list in a for x in _list]
+print([x for _list in a for x in _list])
 
 import itertools
-list(itertools.chain(*a))
+print(list(itertools.chain(*a)))
 
-list(itertools.chain.from_iterable(a))
+print(list(itertools.chain.from_iterable(a)))
 
-reduce(lambda x, y: x+y, a)
+# In Python 2
+print(reduce(lambda x, y: x+y, a))
 
-sum(a, [])
+print(sum(a, []))
 
