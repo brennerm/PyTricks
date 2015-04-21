@@ -19,3 +19,23 @@ def flatten_list(L):
 # In Python 2
 from compiler.ast import flatten
 flatten(L)
+
+
+# Flatten list of lists
+
+a = [[1, 2], [3, 4]]
+
+# Solutions:
+
+print([x for _list in a for x in _list])
+
+import itertools
+print(list(itertools.chain(*a)))
+
+print(list(itertools.chain.from_iterable(a)))
+
+# In Python 2
+print(reduce(lambda x, y: x+y, a))
+
+print(sum(a, []))
+
