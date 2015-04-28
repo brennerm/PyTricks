@@ -9,6 +9,7 @@ Examples:
     ['apple', 'banana', 'orange', 'lemon']
 """
 
+
 def flatten_list(L):
     for item in L:
         if isinstance(item, list):
