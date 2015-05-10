@@ -6,11 +6,11 @@ conn = s.connect(('localhost', 80))
 msgs = []
 
 # normal way
-#while True:
+# while True:
 #    msg = coon.recv(1024)
 #    if recv:
 #        msgs.append(msg)
-#    else:  # when no msg come, break
+# else:  # when no msg come, break
 #         break
 
 # hack way with iter and functools.partial
