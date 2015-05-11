@@ -6,4 +6,4 @@ print(a[::-1])
 
 """iterating over list contents in reverse efficiently."""
 for ele in reversed(a):
-  print(ele)
+    print(ele)
