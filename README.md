@@ -13,14 +13,14 @@ Feel free to use the PyTrickBase.txt as a starting point.
    Add your Python snippet and your documentation as a comment on Issue#1. I will take care of adding your PyTrick and you as a contributor.
 
 ### PyTrick List
-- [Basic Variables Types](/variables)
+- [Basic Variables Types](/basic_types)
     - str
     - bool
 - [Conditional Commands](/conditional_commands)
     - if
     - for
     - switch
-- [Data Structures](/data_structure)
+- [Data Structures](/data_structures)
     - Array
     - Sequences
     - List Comprehension
