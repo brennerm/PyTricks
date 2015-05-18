@@ -16,12 +16,11 @@ Feel free to use the PyTrickBase.txt as a starting point.
 - [Basic Variables Types](#variables)
     - str
     - bool
-- [Conditional Commands](#conditional-statements)
+- [Conditional Commands](/conditional_commands)
     - if
     - for
     - switch
-- [The Python Model Object](#python-model-object)
-- [Data Structures](#data-structure)
+- [Data Structures](/data_structure)
     - Array
     - Sequences
     - List Comprehension
