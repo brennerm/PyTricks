@@ -13,7 +13,7 @@ Feel free to use the PyTrickBase.txt as a starting point.
    Add your Python snippet and your documentation as a comment on Issue#1. I will take care of adding your PyTrick and you as a contributor.
 
 ### PyTrick List
-- [Basic Variables Types](#variables)
+- [Basic Variables Types](/variables)
     - str
     - bool
 - [Conditional Commands](/conditional_commands)
@@ -28,7 +28,10 @@ Feel free to use the PyTrickBase.txt as a starting point.
     - Operators
     - Tuples
     - Dictionaries
-- [Others](#others)
+- [Metaprogramming](/metaprogramming)
+    - Decorator
+    - Nested functions
+- [Others](/others)
 
 ### Requirements
 - only use the standard Python library
