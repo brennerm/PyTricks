@@ -14,23 +14,22 @@ Feel free to use the PyTrickBase.txt as a starting point.
 
 ### PyTrick List
 - [Basic Variables Types](#variables)
-    - [str](#var-str)
-    - [bool](#var-bool)
+    - str
+    - bool
 - [Conditional Commands](#conditional-statements)
-    - [if](#cs-if)
-    - [for](#cs-for)
-    - [switch](#cs-switch)
+    - if
+    - for
+    - switch
 - [The Python Model Object](#python-model-object)
 - [Data Structures](#data-structure)
-    - [Array](#dt-array)
-    - [Sequences](#dt-sequences)
-    - [List Comprehension](#dt-list-comprehension)
-    - [Slicing](#dt-slicing)
-    - [Operators](#dt-operators)
-    - [Tuples](#dt-tuples)
-- [Dictionaries](#dict)
-- [Sets](#sets)
-- [Decorators](#decorators)
+    - Array
+    - Sequences
+    - List Comprehension
+    - Slicing
+    - Operators
+    - Tuples
+    - Dictionaries
+- [Others](#others)
 
 ### Requirements
 - only use the standard Python library
