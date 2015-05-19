@@ -24,12 +24,12 @@ class Deck:
         return self._cards[position]
 
 card_a = Card('A', 'spades')
-print card_a
+print(card_a)
 
 deck = Deck()
 len(deck)
 
-print deck[0]
-print deck[-1]
+print(deck[0])
+print(deck[-1])
 for card in deck:
-    print card
+    print(card)
