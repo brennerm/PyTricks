@@ -9,7 +9,7 @@ print(a[::-1])
 """iterating over string contents in reverse efficiently."""
 
 for char in reversed(a):
-    print(ele)
+    print(char)
 
 """reversing an integer through type conversion and slicing."""
 
