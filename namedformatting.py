@@ -16,3 +16,11 @@ print("My name is {} and I'm {} years old.".format('Jeff','24'))
 c = {'email': 'jeff@usr.com', 'phone': '919-123-4567'}
 print('My name is {0[name]}, my email is {1[email]} and my phone number is {1[phone]}'.format(d, c))
 
+"""object string formatting"""
+class Person:
+  pass
+me = Person()
+me.name = 'Jeff'
+me.email = 'jeff@usr.com'
+me.phone = '919-123-4567'
+print('My name is {me.name}, my email is {me.email} and my phone number is {me.phone}'.format(me=me))
