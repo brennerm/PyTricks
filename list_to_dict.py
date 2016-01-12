@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-"""Convert list into dictionary"""
+"""Convert list of attribute/value pairs into dictionary"""
 
 items = ['a', 1, 'b', 2]
 
