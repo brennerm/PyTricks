@@ -4,6 +4,13 @@
 a = [1, 2, 3, 4, 5]
 print(a[:])
 
+
+"""copy list by typecasting method"""
+
+a = [1, 2, 3, 4, 5]
+print(list(a))
+
+
 """using the list.copy() method (python3 only)"""
 
 a = [1, 2, 3, 4, 5]
