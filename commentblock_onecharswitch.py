@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
-""" comment blocks can be turn on and off 
-    with one character switch when preceded by #"""
+""" 
+comment blocks can be turn on and off 
+in one character switch when preceded by #"""
 
 #"""
 print('see me ?')
