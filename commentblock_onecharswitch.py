@@ -3,28 +3,18 @@
 comment blocks can be turn on and off 
 in one character switch when preceded by #"""
 
-#'''
-print('see me ?')
-#'''
+#''' #< toggling off this # turns the block as a comment (it wasn't, line was mute)
+print("you saw me, now you don't see me")
+#''' 
 
-'''
-print('see me too ?')
-#'''
 
-print('there is more')
-
-""" 
-This applies to turn either one block as comments
-OR the next one.
-
-In the following example, removing the first #
-will comment block 1 and decomment block 2
+"""
+second example is the equivalent 
+of C prepropressors #ifdef 0  / #ifdef 1 comment styles:   
 """
 
-#'''
-print('block 1')
-'''
-print('or block 2 ?')
-#'''
-
-print('nice!')
+#''' < toggling this # will comment the next block,
+print("you saw me now you don't see me")
+'''# which will stop here, where it was previously beginning, hence turning it in the ending block tag
+print("you didn't see me, now you do !")
+#''' # and so, it uncomments the one below
