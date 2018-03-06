@@ -1,7 +1,8 @@
 #! /usr/bin/env python3
 
-"""Switch/Case statments with Dictionaries 
-   Based on Dan Bader video: https://www.youtube.com/watch?v=gllUwQnYVww
+"""
+	Switch/Case statments with Dictionaries 
+   	Based on Dan Bader video: https://www.youtube.com/watch?v=gllUwQnYVww
 """
 
 def traditional(operator, x , y):
@@ -21,4 +22,4 @@ def with_dict(operator, x ,y):
 		'sub' : lambda: x - y,
 		'mul' : lambda: x * y,
 		'div' : lambda: x / y,
-	}.get(operator, lambda: Nome)()
+	}.get(operator, lambda: None)()
