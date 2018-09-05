@@ -1,4 +1,4 @@
-class PropertyCache:
+class PropertyCache(object):
     """ a decorator to cache property
     """
 
