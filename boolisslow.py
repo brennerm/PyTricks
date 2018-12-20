@@ -7,12 +7,12 @@ By the way, True and False can be changed in Python2.
 
 Note: This leads to a performance improvement only in Python2.
 """
-
+import sys
 from timeit import timeit
 
 
 def test_true():
-    count = 1000
+    count = 100
     while True:  # here is True
         if count < 0:
             break
@@ -20,23 +20,14 @@ def test_true():
 
 
 def test_1():
-    count = 1000
+    count = 100
     while 1:  # here is 1
         if count < 0:
             break
         count -= 1
 
 
-# on my macbook pro 15
-# test_true is about 59.3047289848 seconds
-# test_1 is about 39.0966179371 seconds
+# test_true is about 5.01579904556 seconds
+# test_1 is about 3.70646500587 seconds
 print(timeit(test_true, number=1000000))
 print(timeit(test_1, number=1000000))
-
-
-# True and False can be changed in python2
-True = 0
-False = 100
-
-print(True)
-print(False)

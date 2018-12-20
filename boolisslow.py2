@@ -1,0 +1,6 @@
+# True and False can be changed in python2
+True = 0
+False = 100
+    
+print(True)
+print(False)

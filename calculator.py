@@ -15,8 +15,4 @@ ops = {
     "*": operator.mul
 }
 
-x = input("Enter an operator [OPTIONS: +, -, *, /]: ")
-y = int(input("Enter number: "))
-z = int(input("Enter number: "))
-
-print (ops[x](y, z))
+print (ops['-'](50, 25))

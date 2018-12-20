@@ -24,8 +24,3 @@ me.name = 'Jeff'
 me.email = 'jeff@usr.com'
 me.phone = '919-123-4567'
 print('My name is {me.name}, my email is {me.email} and my phone number is {me.phone}'.format(me=me))
-
-"""f-string (Python 3.6+)"""
-name = "Jeff"
-age = 24
-print(f"My name is {name} and I'm {age} years old.")

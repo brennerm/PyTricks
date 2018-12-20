@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 """allows collecting not explicitly assigned values into 
 a placeholder variable"""
 
