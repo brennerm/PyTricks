@@ -1,0 +1,26 @@
+language: python
+python:
+  - "3.6"
+before_install:
+  - sudo apt-get update 
+  - sudo apt-get install -y python python3
+script:
+  - |
+    set -e
+
+    for file in $(ls *.py); do
+        echo "Executing with Python 2: $file"
+        python2 $file
+        echo "Executing with Python 3: $file"
+        python3 $file
+    done
+    
+    for file in $(ls *.py2); do
+        echo "Executing with Python 2: $file"
+        python2 $file
+    done
+    
+    for file in $(ls *.py3); do
+        echo "Executing with Python 3: $file"
+        python3 $file
+    done 
