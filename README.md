@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brennerm/PyTricks.svg?branch=master)](https://travis-ci.org/brennerm/PyTricks)
+
 ## Intention
 Creating a knowledge base of unpopular Python built-in features to save a lot of unnecessary code.
 
