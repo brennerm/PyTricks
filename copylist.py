@@ -10,7 +10,7 @@ print(a[:])
 """adding an empty list yields a copy of initial list"""
 
 a = [1, 2, 3, 4, 5]
-print(a + [])  # in python3, for small lists performs faster than the method above
+print(a + [])  # in python3, for small lists performs faster than a[:]
 
 
 """copy list by typecasting method"""
