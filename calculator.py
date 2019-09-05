@@ -12,7 +12,8 @@ ops = {
     "+": operator.add,
     "-": operator.sub,
     "/": operator.truediv,
-    "*": operator.mul
+    "*": operator.mul,
+    "**": pow
 }
 
-print (ops['-'](50, 25))
+print(ops['-'](50, 25))
