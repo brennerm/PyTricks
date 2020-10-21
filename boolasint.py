@@ -3,6 +3,6 @@
 True -> 1
 False -> 0
 """
-a = 5
+a = input("Enter your number here") 
 print(isinstance(a, int) + (a <= 10))
 print(["is odd", "is even"][a % 2 == 0])
