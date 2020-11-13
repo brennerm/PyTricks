@@ -12,29 +12,26 @@ import contextlib
 
 @contextlib.contextmanager
 def unlock(resource):
-    resource = "unlocked"
+    resource.locked = False
     try:
-        yield resource
+        yield
     finally:
-        resource = "locked"
+        resource.locked = True
 
 
 # a resource that is locked
-resource = "locked" 
+class Resource:
+  def __init__(self):
+    self.locked = True
+
+resource = Resource()
 
 # test that it is indeed locked
-print(resource)
+print(resource.locked)
 
 # call your 'unlock' context manager with your resource
-with unlock(resource) as unlocked:
-    print(unlocked) # check that it is unlocked
+with unlock(resource):
+    print(resource.locked) # check that it is unlocked
 
 # ensure it was re-locked when it left the 'unlock' context
-print(resource)
-
-
-
-
-
-
-
+print(resource.locked)
