@@ -1,5 +1,5 @@
 """
-metatable with where the function recieves the dictionary and key.
+metatable with where the function receives the dictionary and key.
 """
 from collections import defaultdict
 
