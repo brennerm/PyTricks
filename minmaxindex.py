@@ -14,3 +14,7 @@ def maxIndex(lst):
 
 print(minIndex(lst))
 print(maxIndex(lst))
+
+# using `index` method on a list object
+lst.index(min(lst))
+lst.index(max(lst))
